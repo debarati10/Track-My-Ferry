@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trackmyferry"
+version = "0.1.0"
+description = "Real-time NYC Ferry tracking, arrival-time prediction and crowding forecasts"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Debarati Chakrabarti", email = "dc4053@columbia.edu" }]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.29",
+  "pydantic>=2.6",
+  "requests>=2.31",
+  "websockets>=12",
+  "protobuf>=4.25",
+  "gtfs-realtime-bindings>=1.0",
+  "prometheus-client>=0.20",
+  "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+kafka = ["aiokafka>=0.10"]
+db = ["psycopg[binary]>=3.1"]
+redis = ["redis>=5"]
+seq = ["torch>=2.2"]
+tracking = ["mlflow>=2.12"]
+dev = ["pytest>=8", "httpx>=0.27", "ruff>=0.4"]
+all = ["trackmyferry[kafka,db,redis,tracking]"]
+
+[project.scripts]
+trackmyferry = "trackmyferry.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["trackmyferry*"]
+
+[tool.setuptools.package-data]
+trackmyferry = ["sim/sample_gtfs/*.txt", "storage/schema.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint]
+# Pinned explicitly: newer Ruff releases switch on many more rules by default, and the project
+# should lint the same on every machine and in CI.
+select = ["E4", "E7", "E9", "F", "W", "I", "UP", "B"]

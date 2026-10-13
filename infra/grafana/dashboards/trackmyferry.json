@@ -1,0 +1,230 @@
+{
+  "uid": "trackmyferry",
+  "title": "Track My Ferry",
+  "schemaVersion": 39,
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "refresh": "30s",
+  "panels": [
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "Boats tracked",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prom"
+      },
+      "targets": [
+        {
+          "expr": "max(trackmyferry_vessels_tracked)",
+          "legendFormat": "boats",
+          "refId": "B"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "stat",
+      "title": "Map clients",
+      "gridPos": {
+        "x": 6,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prom"
+      },
+      "targets": [
+        {
+          "expr": "sum(trackmyferry_ws_clients)",
+          "legendFormat": "clients",
+          "refId": "C"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "stat",
+      "title": "End-to-end latency p95",
+      "gridPos": {
+        "x": 12,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prom"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        },
+        "overrides": []
+      },
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(trackmyferry_end_to_end_seconds_bucket[5m])) by (le))",
+          "legendFormat": "p95",
+          "refId": "P"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "stat",
+      "title": "DB rows/s",
+      "gridPos": {
+        "x": 18,
+        "y": 0,
+        "w": 6,
+        "h": 4
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prom"
+      },
+      "targets": [
+        {
+          "expr": "sum(rate(trackmyferry_db_rows_total[1m]))",
+          "legendFormat": "rows",
+          "refId": "R"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "timeseries",
+      "title": "Messages per second by topic",
+      "gridPos": {
+        "x": 0,
+        "y": 4,
+        "w": 12,
+        "h": 8
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prom"
+      },
+      "targets": [
+        {
+          "expr": "sum(rate(trackmyferry_messages_total[1m])) by (topic)",
+          "legendFormat": "{{topic}}",
+          "refId": "{"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ops"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": 6,
+      "type": "timeseries",
+      "title": "Latency: bus ingest \u2192 vessel state",
+      "gridPos": {
+        "x": 12,
+        "y": 4,
+        "w": 12,
+        "h": 8
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prom"
+      },
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.5, sum(rate(trackmyferry_end_to_end_seconds_bucket[5m])) by (le))",
+          "legendFormat": "p50",
+          "refId": "P"
+        },
+        {
+          "expr": "histogram_quantile(0.95, sum(rate(trackmyferry_end_to_end_seconds_bucket[5m])) by (le))",
+          "legendFormat": "p95",
+          "refId": "P"
+        },
+        {
+          "expr": "histogram_quantile(0.99, sum(rate(trackmyferry_process_seconds_bucket[5m])) by (le))",
+          "legendFormat": "processing p99",
+          "refId": "P"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        },
+        "overrides": []
+      }
+    },
+    {
+      "id": 7,
+      "type": "timeseries",
+      "title": "Live arrival-time error (minutes): Track My Ferry vs official",
+      "gridPos": {
+        "x": 0,
+        "y": 12,
+        "w": 12,
+        "h": 8
+      },
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "pg"
+      },
+      "targets": [
+        {
+          "rawSql": "SELECT time_bucket('1 hour', made_at) AS time, avg(abs(error_s))/60 AS \"Track My Ferry\", avg(abs(official_error_s))/60 AS \"Official\" FROM prediction_errors WHERE $__timeFilter(made_at) GROUP BY 1 ORDER BY 1",
+          "format": "time_series",
+          "refId": "A",
+          "rawQuery": true,
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      }
+    },
+    {
+      "id": 8,
+      "type": "timeseries",
+      "title": "Share of arrivals inside the p10\u2013p90 band (target 0.8)",
+      "gridPos": {
+        "x": 12,
+        "y": 12,
+        "w": 12,
+        "h": 8
+      },
+      "datasource": {
+        "type": "grafana-postgresql-datasource",
+        "uid": "pg"
+      },
+      "targets": [
+        {
+          "rawSql": "SELECT time_bucket('1 hour', made_at) AS time, avg(inside_band::int) AS coverage FROM prediction_errors WHERE $__timeFilter(made_at) GROUP BY 1 ORDER BY 1",
+          "format": "time_series",
+          "refId": "A",
+          "rawQuery": true,
+          "editorMode": "code"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit"
+        },
+        "overrides": []
+      }
+    }
+  ]
+}

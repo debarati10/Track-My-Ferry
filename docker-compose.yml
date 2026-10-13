@@ -1,0 +1,114 @@
+# Distributed deployment.
+#   Simulated data (no keys needed):  docker compose --profile sim up --build
+#   Live NYC Ferry data:              AISSTREAM_API_KEY=... docker compose --profile live up --build
+# Map + API: http://localhost:8000   Grafana: http://localhost:3000 (admin/admin)   Prometheus: http://localhost:9090
+
+x-app: &app
+  build: .
+  image: trackmyferry:latest
+  restart: unless-stopped
+  environment: &env
+    TRACKMYFERRY_BUS: kafka
+    KAFKA_BOOTSTRAP_SERVERS: redpanda:9092
+    DATABASE_URL: postgresql://trackmyferry:trackmyferry@postgres:5432/trackmyferry
+    REDIS_URL: redis://redis:6379/0
+    AISSTREAM_API_KEY: ${AISSTREAM_API_KEY:-}
+    LOG_LEVEL: INFO
+  depends_on:
+    redpanda: { condition: service_healthy }
+    postgres: { condition: service_healthy }
+    redis: { condition: service_started }
+
+services:
+  redpanda:  # Kafka-compatible broker, single binary
+    image: docker.redpanda.com/redpandadata/redpanda:v24.2.7
+    command: >
+      redpanda start --mode dev-container --smp 1 --memory 1G --overprovisioned
+      --kafka-addr PLAINTEXT://0.0.0.0:9092 --advertise-kafka-addr PLAINTEXT://redpanda:9092
+    healthcheck:
+      test: ["CMD-SHELL", "rpk cluster health | grep -q 'Healthy:.*true'"]
+      interval: 5s
+      retries: 30
+    volumes: [redpanda:/var/lib/redpanda/data]
+
+  postgres:  # PostgreSQL 16 + TimescaleDB + PostGIS
+    image: timescale/timescaledb-ha:pg16
+    environment:
+      POSTGRES_USER: trackmyferry
+      POSTGRES_PASSWORD: trackmyferry
+      POSTGRES_DB: trackmyferry
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U trackmyferry"]
+      interval: 5s
+      retries: 30
+    volumes: [pg:/home/postgres/pgdata/data]
+    ports: ["5432:5432"]
+
+  redis:
+    image: redis:7-alpine
+
+  # ---- sources (pick a profile) -------------------------------------------------------
+  ingest-sim:
+    <<: *app
+    profiles: [sim]
+    environment: { <<: *env, TRACKMYFERRY_MODE: sim, SIM_SPEEDUP: "1" }
+    command: ["trackmyferry", "ingest", "sim"]
+
+  ingest-ais:
+    <<: *app
+    profiles: [live]
+    environment: { <<: *env, TRACKMYFERRY_MODE: live }
+    command: ["trackmyferry", "ingest", "ais"]
+
+  ingest-trip-updates:
+    <<: *app
+    profiles: [live]
+    environment: { <<: *env, TRACKMYFERRY_MODE: live }
+    command: ["trackmyferry", "ingest", "trip_updates"]
+
+  ingest-alerts:
+    <<: *app
+    profiles: [live]
+    environment: { <<: *env, TRACKMYFERRY_MODE: live }
+    command: ["trackmyferry", "ingest", "alerts"]
+
+  ingest-env:
+    <<: *app
+    profiles: [live]
+    environment: { <<: *env, TRACKMYFERRY_MODE: live }
+    command: ["trackmyferry", "ingest", "env"]
+
+  # ---- processing + serving -----------------------------------------------------------
+  processor:
+    <<: *app
+    environment: { <<: *env, TRACKMYFERRY_MODE: "${TRACKMYFERRY_MODE:-sim}" }
+    command: ["trackmyferry", "process"]
+    volumes: ["./data:/app/data"]
+
+  api:
+    <<: *app
+    environment: { <<: *env, TRACKMYFERRY_MODE: "${TRACKMYFERRY_MODE:-sim}" }
+    command: ["trackmyferry", "api"]
+    ports: ["8000:8000"]
+    deploy:
+      replicas: 1  # stateless: scale with `docker compose up --scale api=3` behind a load balancer
+
+  # ---- observability ------------------------------------------------------------------
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    volumes: ["./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro"]
+    ports: ["9090:9090"]
+
+  grafana:
+    image: grafana/grafana:11.2.2
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+      GF_AUTH_ANONYMOUS_ENABLED: "true"
+    volumes:
+      - ./infra/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./infra/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    ports: ["3000:3000"]
+
+volumes:
+  redpanda: {}
+  pg: {}

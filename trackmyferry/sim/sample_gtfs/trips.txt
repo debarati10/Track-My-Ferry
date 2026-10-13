@@ -1,0 +1,387 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,shape_id
+ER,WK,ER_0_WK_0630,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0650,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0710,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0730,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0750,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0810,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0830,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0850,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0910,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0930,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_0950,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1010,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1030,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1050,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1110,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1130,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1150,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1210,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1230,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1250,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1310,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1330,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1350,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1410,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1430,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1450,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1510,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1530,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1550,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1610,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1630,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1650,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1710,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1730,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1750,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1810,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1830,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1850,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1910,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1930,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_1950,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_2010,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_2030,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_2050,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_2110,East 34th Street,0,ER_0
+ER,WK,ER_0_WK_2130,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_0800,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_0825,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_0850,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_0915,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_0940,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1005,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1030,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1055,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1120,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1145,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1210,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1235,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1300,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1325,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1350,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1415,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1440,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1505,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1530,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1555,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1620,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1645,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1710,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1735,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1800,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1825,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1850,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1915,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_1940,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_2005,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_2030,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_2055,East 34th Street,0,ER_0
+ER,WE,ER_0_WE_2120,East 34th Street,0,ER_0
+ER,WK,ER_1_WK_0630,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0650,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0710,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0730,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0750,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0810,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0830,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0850,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0910,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0930,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_0950,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1010,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1030,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1050,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1110,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1130,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1150,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1210,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1230,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1250,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1310,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1330,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1350,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1410,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1430,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1450,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1510,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1530,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1550,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1610,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1630,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1650,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1710,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1730,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1750,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1810,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1830,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1850,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1910,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1930,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_1950,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_2010,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_2030,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_2050,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_2110,Wall St/Pier 11,1,ER_1
+ER,WK,ER_1_WK_2130,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_0800,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_0825,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_0850,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_0915,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_0940,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1005,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1030,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1055,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1120,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1145,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1210,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1235,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1300,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1325,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1350,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1415,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1440,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1505,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1530,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1555,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1620,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1645,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1710,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1735,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1800,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1825,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1850,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1915,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_1940,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_2005,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_2030,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_2055,Wall St/Pier 11,1,ER_1
+ER,WE,ER_1_WE_2120,Wall St/Pier 11,1,ER_1
+AS,WK,AS_0_WK_0615,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0640,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0705,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0730,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0755,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0820,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0845,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0910,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_0935,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1000,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1025,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1050,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1115,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1140,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1205,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1230,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1255,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1320,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1345,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1410,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1435,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1500,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1525,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1550,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1615,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1640,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1705,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1730,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1755,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1820,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1845,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1910,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_1935,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_2000,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_2025,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_2050,East 90th Street,0,AS_0
+AS,WK,AS_0_WK_2115,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_0800,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_0830,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_0900,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_0930,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1000,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1030,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1100,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1130,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1200,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1230,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1300,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1330,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1400,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1430,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1500,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1530,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1600,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1630,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1700,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1730,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1800,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1830,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1900,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_1930,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_2000,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_2030,East 90th Street,0,AS_0
+AS,WE,AS_0_WE_2100,East 90th Street,0,AS_0
+AS,WK,AS_1_WK_0615,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0640,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0705,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0730,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0755,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0820,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0845,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0910,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_0935,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1000,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1025,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1050,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1115,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1140,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1205,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1230,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1255,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1320,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1345,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1410,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1435,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1500,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1525,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1550,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1615,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1640,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1705,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1730,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1755,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1820,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1845,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1910,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_1935,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_2000,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_2025,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_2050,Wall St/Pier 11,1,AS_1
+AS,WK,AS_1_WK_2115,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_0800,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_0830,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_0900,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_0930,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1000,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1030,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1100,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1130,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1200,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1230,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1300,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1330,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1400,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1430,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1500,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1530,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1600,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1630,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1700,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1730,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1800,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1830,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1900,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_1930,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_2000,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_2030,Wall St/Pier 11,1,AS_1
+AS,WE,AS_1_WE_2100,Wall St/Pier 11,1,AS_1
+SB,WK,SB_0_WK_0630,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_0700,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_0730,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_0800,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_0830,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_0900,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_0930,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1000,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1030,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1100,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1130,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1200,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1230,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1300,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1330,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1400,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1430,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1500,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1530,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1600,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1630,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1700,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1730,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1800,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1830,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1900,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_1930,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_2000,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_2030,Bay Ridge,0,SB_0
+SB,WK,SB_0_WK_2100,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_0800,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_0840,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_0920,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1000,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1040,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1120,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1200,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1240,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1320,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1400,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1440,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1520,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1600,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1640,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1720,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1800,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1840,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_1920,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_2000,Bay Ridge,0,SB_0
+SB,WE,SB_0_WE_2040,Bay Ridge,0,SB_0
+SB,WK,SB_1_WK_0630,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_0700,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_0730,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_0800,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_0830,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_0900,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_0930,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1000,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1030,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1100,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1130,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1200,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1230,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1300,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1330,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1400,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1430,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1500,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1530,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1600,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1630,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1700,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1730,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1800,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1830,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1900,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_1930,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_2000,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_2030,Wall St/Pier 11,1,SB_1
+SB,WK,SB_1_WK_2100,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_0800,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_0840,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_0920,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1000,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1040,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1120,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1200,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1240,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1320,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1400,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1440,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1520,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1600,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1640,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1720,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1800,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1840,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_1920,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_2000,Wall St/Pier 11,1,SB_1
+SB,WE,SB_1_WE_2040,Wall St/Pier 11,1,SB_1

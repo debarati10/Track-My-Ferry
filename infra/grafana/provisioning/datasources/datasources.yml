@@ -1,0 +1,14 @@
+apiVersion: 1
+datasources:
+  - name: Prometheus
+    uid: prom
+    type: prometheus
+    url: http://prometheus:9090
+    isDefault: true
+  - name: Track My Ferry DB
+    uid: pg
+    type: grafana-postgresql-datasource
+    url: postgres:5432
+    user: trackmyferry
+    secureJsonData: { password: trackmyferry }
+    jsonData: { database: trackmyferry, sslmode: disable, postgresVersion: 1600, timescaledb: true }

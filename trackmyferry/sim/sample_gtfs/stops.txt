@@ -1,0 +1,17 @@
+stop_id,stop_name,stop_lat,stop_lon
+PIER11,Wall St/Pier 11,40.7034,-74.0044
+DUMBO,Dumbo/Fulton Ferry,40.704,-73.9961
+SWBG,South Williamsburg,40.7099,-73.9704
+NWBG,North Williamsburg,40.7215,-73.964
+GRPT,Greenpoint,40.7306,-73.9627
+HPS,Hunters Point South,40.7421,-73.9623
+E34,East 34th Street,40.7436,-73.9708
+BNY,Brooklyn Navy Yard,40.7022,-73.9748
+LIC,Long Island City,40.7458,-73.9598
+RI,Roosevelt Island,40.758,-73.956
+AST,Astoria,40.772,-73.9346
+E90,East 90th Street,40.7777,-73.942
+PIER6,Atlantic Ave/BBP Pier 6,40.6919,-74.0022
+REDHOOK,Red Hook/Atlantic Basin,40.684,-74.0122
+BAT,Sunset Park/BAT,40.6457,-74.0283
+BAYRIDGE,Bay Ridge,40.6354,-74.0377

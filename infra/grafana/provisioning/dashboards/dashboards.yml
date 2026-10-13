@@ -1,0 +1,6 @@
+apiVersion: 1
+providers:
+  - name: trackmyferry
+    folder: Track My Ferry
+    type: file
+    options: { path: /var/lib/grafana/dashboards }
