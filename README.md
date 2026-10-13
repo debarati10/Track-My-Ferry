@@ -5,6 +5,9 @@ This app reads the ferries' live AIS signals, figures out which trip each boat i
 Tap a landing to see when the next boat will really arrive (as a time range) and how likely it is to be full.
 There's also a demo mode with simulated boats, so you can try it at any hour.
 
+<img width="2880" height="1800" alt="Screenshot 2026-10-13 at 4 08 56 AM" src="https://github.com/user-attachments/assets/3658ac34-4012-4229-b1e5-168f6ede5def" />
+
+
 ## Getting started
 
 You'll need Python 3.11+ and Node.js 18+.
